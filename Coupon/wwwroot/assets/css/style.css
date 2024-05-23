@@ -3782,11 +3782,7 @@ a:hover {
      direction: rtl;
  }
 
-/* برای اطمینان از چیدمان صحیح آیتم‌ها */
-ul.nav li {
-    float: none;
- 
-}
+
 
 ul.nav-tabs > li {
     float: right;
