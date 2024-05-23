@@ -1,0 +1,833 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Coupon.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Coupon.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animsition.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icons.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\owl.theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\20.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\21.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\22.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\56225e3fc2ffb (1).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\56225e3fc2ffb (1).jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\56225e3fc2ffb.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\56225e3fc2ffb.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\Blog_Banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Blog_Banner.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\Payless-Shoesource-End-Of-Season-Sale-December-February-2015.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Payless-Shoesource-End-Of-Season-Sale-December-February-2015.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\amazon-logo-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\amazon-logo-small.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\bookdepository.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bookdepository.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\bookingcom-discount-coupons-2110.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bookingcom-discount-coupons-2110.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\cat-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat-1.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal1.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal2.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal3.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal4.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\deal4.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal5.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal6.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\deal6.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal7.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal8.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\deal8.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\deal9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal9.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\foodpanda-logo-sg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\foodpanda-logo-sg.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\helpchat-logo-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\helpchat-logo-small.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\honestbee-shopback-cashback.png",
+      "PackagePath": "staticwebassets\\assets\\images\\honestbee-shopback-cashback.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\hp_icon_100x27.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\hp_icon_100x27.gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\icon-100x27 (1).gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-100x27 (1).gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\icon-100x27 (2).gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-100x27 (2).gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\icon-100x27.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-100x27.gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\illu-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\illu-2.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\illu-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\illu-3.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\illu.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\illu.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\jetstar-logo-shopback.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\jetstar-logo-shopback.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\makemytrip-logo-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\makemytrip-logo-small.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\payment\\amz-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment\\amz-icon.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\payment\\ax-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment\\ax-icon.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\payment\\mb-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment\\mb-icon.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\payment\\mst-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment\\mst-icon.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\payment\\mstr-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment\\mstr-icon.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\payment\\paypal-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment\\paypal-icon.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\printvenue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\printvenue.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-01.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-01.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-02.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-03.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-04.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-04.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-05.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide-06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-06.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide20.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide21.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide22.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_01.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_02.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_1.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_10.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_11.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_12.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_13.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_14.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_15.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_16.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_17.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_18.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_1_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_1_1.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_1_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_1_2.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_1_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_1_3.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_1_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_1_4.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_1_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_1_5.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_2.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_3.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_4.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_5.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_6.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_7.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_8.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slide_9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide_9.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\slider.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\smallSlider.png",
+      "PackagePath": "staticwebassets\\assets\\images\\smallSlider.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\small_icon_mixbook1.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\small_icon_mixbook1.gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\small_icon_newbalance2.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\small_icon_newbalance2.gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\t240x240-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\t240x240-2.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\t240x240-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\t240x240-3.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\t240x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\t240x240.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-1.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-2.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-3.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-4.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-5.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-6.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thmbsm-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thmbsm-7.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb1.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb10.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb11.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb12.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb13.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb14.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb15.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb2.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb3.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb4.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb5.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb6.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb7.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb8.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumb9.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\thumb9.svg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB1.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB2.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB3.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB3.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB4.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB5.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB6.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB6.gif"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB7.jpg"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\thumbB8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbB8.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\women.png",
+      "PackagePath": "staticwebassets\\assets\\images\\women.png"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\animsition.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\js\\kupon.js",
+      "PackagePath": "staticwebassets\\assets\\js\\kupon.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\owl.carousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\owl.carousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\owl.carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assets\\owl.carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\owl.carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\owl.carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Coupon.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Coupon.props",
+      "PackagePath": "build\\Coupon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Coupon.props",
+      "PackagePath": "buildMultiTargeting\\Coupon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Coupon.props",
+      "PackagePath": "buildTransitive\\Coupon.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

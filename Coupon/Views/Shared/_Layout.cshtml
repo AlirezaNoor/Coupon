@@ -1,0 +1,795 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] کوپون کده</title>
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/animsition.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/swiper-bundle.min.css"/>
+
+    <link href="~/assets/css/style.css" rel="stylesheet" type="text/css">
+    <script src="~/assets/js/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+<div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+<!-- headr of site-->
+<header class="header">
+    <div class="top-nav  navbar m-b-0 b-0">
+        <div class="container">
+            <div class="row">
+                <!-- LOGO -->
+                <div class="topbar-right col-sm-3 col-xs-4">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <!-- End Logo container-->
+                <div class="menu-extras col-sm-9 col-xs-8">
+                    <ul class="nav navbar-nav navbar-right pull-right">
+          
+                        <li class="dropdown hidden-xs">
+                            <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <i class="ti-shopping-cart"></i> <span class="badge badge-xs badge-danger">3</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-lg">
+                                <li class="notifi-title">کوپون </li>
+                                <li class="list-group">
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="http://placehold.it/120x50" alt="">
+                                            </div>
+                                            <div class="media-body clearfix">
+                                                <div class="media-heading">تا 30%</div>
+                                                <p class="m-0">
+                                                    <small>نام شرکت</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="http://placehold.it/120x50" alt="">
+                                            </div>
+                                            <div class="media-body clearfix">
+                                                <div class="media-heading">تا 30%</div>
+                                                <p class="m-0">
+                                                    <small>نام شرکت</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="http://placehold.it/120x50" alt="">
+                                            </div>
+                                            <div class="media-body clearfix">
+                                                <div class="media-heading">تا 30%</div>
+                                                <p class="m-0">
+                                                    <small>نام شرکت</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- last list item -->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <small>جاپ همه کوپن ها</small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown user-box">
+                            <a href="" class="dropdown-toggle profile btn btn-default" data-toggle="dropdown" aria-expanded="true">
+                                اکانت من
+                            </a>
+                            <ul class="dropdown-menu" style="margin-top:16px">
+                                <li>
+                                    <a href="javascript:void(0)"> ورود</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">ثبت نام</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">مرکز کمک </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle">
+                            <div class="lines">
+                                <span></span> <span></span> <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-custom shadow">
+        <div class="container">
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="ti-home"></i> <span> خانه </span>
+                        </a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="ti-cut"></i> <span> کوپن </span>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="results.html">لیست کوپن ها</a>
+                            </li>
+                            <li>
+                                <a href="results_2.html">شبکه کوپن</a>
+                            </li>
+                            <li>
+                                <a href="results_3.html">تصویر شبکه کوپن</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="ti-announcement"></i> <span> فروشگاه ها </span>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="store_profile.html">فروشگاه</a>
+                            </li>
+                            <li>
+                                <a href="categories.html">دسته بندی فروشگاه ها</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="ti-layout-list-thumb"></i> <span> صفحات </span>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="store_profile.html">فروشگاه</a>
+                            </li>
+                            <li>
+                                <a href="categories.html">جستجوی فروشگاه‌ها</a>
+                            </li>
+                            <li>
+                                <a href="results.html">لیست کوپن‌ها</a>
+                            </li>
+                            <li>
+                                <a href="results_2.html">شبکه کوپن‌ها</a>
+                            </li>
+                            <li>
+                                <a href="results_3.html">شبکه کوپن‌ها با تصاویر</a>
+                            </li>
+                            <li>
+                                <a href="submit.html">ارسال کوپن</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">سوالات متداول</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">قیمت‌ها</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">تماس</a>
+                            </li>
+                            <li>
+                                <a href="features.html">ویژگی‌ها</a>
+                            </li>
+                            <li>
+                                <a href="blog_single.html">وبلاگ</a>
+                            </li>
+                            <li>
+                                <a href="blog_articles.html">لیست وبلاگ‌ها</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- End navigation menu  -->
+            </div>
+        </div>
+    </div>
+</header>
+<!--end  headr of site-->
+<div class="wrapper">
+<div class="container">
+@* start of slider *@
+<div class="row">
+    <div class="col-sm-12">
+        <!-- مؤلفه اصلی برای پیام بازاریابی اولیه یا فراخوان -->
+
+        <div class="swiper-container my-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="~/assets/images/slider.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/assets/images/slider.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/assets/images/slider.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!--/slide wrap -->
+    </div>
+
+    <!-- /col 12 -->
+</div>
+@* end of slider *@
+
+<div class="row marginForTop">
+<div class="col-lg-8">
+    @RenderBody()
+</div>
+@* start of sidbar *@
+<div class="col-lg-4">
+<div class="widget categories b-b-0">
+    <!-- /widget heading -->
+    <div class="widget-heading">
+        <h3 class="widget-title text-dark">
+            دسته‌بندی‌های محبوب
+        </h3>
+        <div class="clearfix"></div>
+    </div>
+    <div class="widget-body">
+        <!-- Sidebar navigation -->
+        <ul class="nav sidebar-nav">
+            <li class="dropdown">
+                <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                    <i class="ti-shine">
+                    </i> سفر
+                    <span class="sidebar-badge">
+                        12
+                    </span>
+                    <b class="caret">
+                    </b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#" tabindex="-1">
+                            اروپا
+                            <span class="sidebar-badge">
+                                12
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ti-gift">
+                    </i> هدایا
+                    <span class="sidebar-badge">
+                        3
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ti-bag">
+                    </i> تعطیلات
+                    <span class="sidebar-badge">
+                        3
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ti-ticket">
+                    </i> بلیط‌ها
+                    <span class="sidebar-badge badge-circle">
+                        12
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ti-pulse">
+                    </i> سلامت
+                    <span class="sidebar-badge badge-circle">
+                        45
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ti-direction-alt">
+                    </i> کارهایی که باید انجام دهید
+                    <span class="sidebar-badge badge-circle">
+                        117
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ti-harddrives">
+                    </i> الکترونیک
+                    <span class="sidebar-badge badge-circle">
+                        117
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <!-- Sidebar divider -->
+    </div>
+</div>
+<div class="widget">
+    <!-- /widget heading -->
+    <div class="widget-heading">
+        <h3 class="widget-title text-dark">
+            جستجوی فروشگاه‌های محبوب شما
+        </h3>
+        <div class="clearfix"></div>
+    </div>
+    <div class="widget-body">
+        <form class="form-horizontal select-search">
+            <label class="control-label ">دنبال چی می‌گردی؟</label>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default">
+                    <i class="ti-tag"></i>
+                    <input type="checkbox" checked>کوپن‌ها
+                </label>
+                <label class="btn btn-default">
+                    <i class="ti-cut"></i>
+                    <input type="checkbox">تخفیف‌ها
+                </label>
+                <label class="btn btn-default active">
+                    <i class="ti-alarm-clock"></i>
+                    <input type="checkbox">معاملات
+                </label>
+            </div>
+            <fieldset>
+                <div class="form-group">
+                    <label class="control-label ">کلمه کلیدی</label>
+                    <input class="form-control" id="text" name="text" type="text"/>
+                </div>
+                <div class="row">
+                    <!-- Select Basic -->
+                    <div class="form-group col-sm-6 col-xs-12">
+                        <label class="control-label " for="category">دسته‌بندی را انتخاب کنید</label>
+                        <select class="select form-control" id="category" name="category">
+                            <option value="Electronics">الکترونیک</option>
+                            <option value="Fashion">مد</option>
+                            <option value="Kids">کودکان</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-6 col-xs-12">
+                        <label class="control-label " for="store">یک فروشگاه انتخاب کنید</label>
+                        <select class="select form-control" id="store" name="store">
+                            <option value="Shopname">Shopname</option>
+                            <option value="Ebay">Ebay</option>
+                            <option value="Ebay">Shopname</option>
+                            <option value="Ebay">Hostgator</option>
+                            <option value="Ebay">Ebay</option>
+                            <option value="Bangdoo">Bangdoo</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- //row -->
+                <!-- Button -->
+                <div class="form-group ">
+                    <button id="search_btn" name="search_btn" class="btn btn-danger">جستجوی کوپن‌ها</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!-- /widget -->
+<div class="widget">
+    <!-- /widget heading -->
+    <div class="widget-heading">
+        <h3 class="widget-title text-dark">
+            برچسب‌های محبوب
+        </h3>
+        <div class="clearfix"></div>
+    </div>
+    <div class="widget-body">
+        <ul class="tags">
+            <li>
+                <a href="#" class="tag">
+                    کوپن‌ها
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    تخفیف‌ها
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    معاملات
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    Shopname
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    Ebay
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    مد
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    کفش
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    کودکان
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    سفر
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tag">
+                    میزبانی
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- /widget -->
+<div class="widget trending-coupons">
+    <!-- /widget heading -->
+    <div class="widget-heading">
+        <h3 class="widget-title text-dark">
+            کوپن‌های ترند
+        </h3>
+        <div class="clearfix"></div>
+    </div>
+    <div class="widget-body">
+        <div class="media">
+            <div class="media-left media-middle">
+                <img src="http://placehold.it/64x64" alt="">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">تا 70% پاداش</h4>
+                <p>تا 70% تخفیف بر روی لباس‌ها ...</p>
+            </div>
+        </div>
+        <!--/coupon media -->
+        <div class="media">
+            <div class="media-left media-middle">
+                <img src="http://placehold.it/64x64" alt="">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">تا 70% پاداش</h4>
+                <p>تا 70% تخفیف بر روی لباس‌ها ...</p>
+            </div>
+        </div>
+        <!--/coupon media -->
+        <div class="media">
+            <div class="media-left media-middle">
+                <img src="http://placehold.it/64x64" alt="">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">تا 50% تخفیف بر روی ضروریات تابستانی مردانه</h4>
+                <p>تا 70% تخفیف بر روی لباس‌ها ...</p>
+            </div>
+        </div>
+    </div>
+    <!-- // widget body -->
+</div>
+<!-- /widget -->
+</div>
+@* end of didbar *@
+</div>
+
+
+</div>
+
+    <section class="call-to-action">
+        <div class="container">
+            <div class="row explain_group">
+                <div class="col-md-4">
+                    <a class="item" rel="nofollow" href="#">
+                        <div class="box-icon">
+                            <i class="bg-danger ti-search"></i>
+                        </div>
+                        <div class="box-info">
+                            <h3>جستجوی کوپن‌ها</h3>
+                            <h4>بهترین کوپن‌های پس‌انداز پول را پیدا کنید.</h4>
+                            <div class="point">
+                                <i class="ti-check"></i><span>کوپن‌های تازه را پیدا کنید</span>
+                            </div>
+                            <div class="point">
+                                <i class="ti-check"></i><span>بهترین کوپن‌ها و پیشنهادات</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="item" rel="nofollow" href="#">
+                        <div class="box-icon">
+                            <i class="bg-info ti-shopping-cart-full"></i>
+                        </div>
+                        <div class="box-info">
+                            <h3>پول خود را ذخیره کنید</h3>
+                            <h4>بهترین کوپن‌های پس‌انداز پول را پیدا کنید.</h4>
+                            <div class="point">
+                                <i class="ti-check"></i><span>کوپن‌های تازه را پیدا کنید</span>
+                            </div>
+                            <div class="point">
+                                <i class="ti-check"></i><span>بهترین کوپن‌ها و پیشنهادات</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="item" rel="nofollow" href="#">
+                        <div class="box-icon">
+                            <i class="bg-purple ti-gift"></i>
+                        </div>
+                        <div class="box-info">
+                            <h3>هدایای خود را کسب کنید</h3>
+                            <h4>بهترین کوپن‌های پس‌انداز پول را پیدا کنید.</h4>
+                            <div class="point">
+                                <i class="ti-check"></i><span>کوپن‌های تازه را پیدا کنید</span>
+                            </div>
+                            <div class="point">
+                                <i class="ti-check"></i><span>بهترین کوپن‌ها و پیشنهادات</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-alert">
+        <div class="container text-center">
+            <div class="col-sm-12">
+                <div class="newsletter-form">
+                    <h4>
+                        <i class="ti-email"></i>برای خبرنامه هفتگی ایمیلی ما با بهترین کوپن‌های پس‌انداز پول ثبت‌نام کنید.
+                    </h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control input-lg" placeholder="ایمیل">
+                        <span class="input-group-btn">
+                        <button class="btn btn-danger btn-lg" type="button">
+                            اشتراک
+                        </button>
+                    </span>
+                    </div>
+                    <p>
+                        <small>ما هرگز آدرس ایمیل شما را با شخص ثالث به اشتراک نمی‌گذاریم.</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- end:Newsletter signup -->
+<!-- Footer -->
+    <footer id="footer">
+        <div class="btmFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 text-center">
+                        <ul class="list-inline list-unstyled">
+                            <li>
+                                <a href="#">استرالیا</a>
+                            </li>
+                            <li>
+                                <a href="#">آمریکای شمالی</a>
+                            </li>
+                            <li>
+                                <a href="#">آمریکای جنوبی</a>
+                            </li>
+                            <li>
+                                <a href="#">هند</a>
+                            </li>
+                            <li>
+                                <a href="#">آفریقا</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 text-center m-t-20">
+                    <p>
+                        <strong>
+                            کپی رایت ۲۰۱۶
+                        </strong> KuponHub - قالب کوپن‌ها ساخته شده با
+                        <i class="ti-heart">
+                        </i>
+                        <strong>
+                            توسط Codenpixel
+                        </strong>
+                    </p>
+                </div>
+                <div class="col-sm-12 text-center m-t-30">
+                    <ul class="pay-opt list-inline list-unstyled">
+                        <li>
+                            <a href="#" title="#">
+                                <img src="assets/images/payment/amz-icon.png" class="img-responsive"
+                                     alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="#">
+                                <img src="assets/images/payment/ax-icon.png" class="img-responsive"
+                                     alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="#">
+                                <img src="assets/images/payment/mb-icon.png" class="img-responsive"
+                                     alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="#">
+                                <img src="assets/images/payment/mst-icon.png" class="img-responsive"
+                                     alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="#">
+                                <img src="assets/images/payment/mstr-icon.png" class="img-responsive"
+                                     alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="#">
+                                <img src="assets/images/payment/paypal-icon.png"
+                                     class="img-responsive" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- start modal -->
+<!-- Large modal -->
+
+    <div class="coupon_modal modal fade couponModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                    <i class="ti-close"></i>
+                </span>
+                </button>
+                <div class="coupon_modal_content">
+            
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 text-center">
+                            <h2>۳۰٪ تخفیف در نام‌های دامنه جدید</h2>
+                            <p>
+                                شامل هزینه‌های ICANN، مالیات‌ها، انتقال‌ها یا کارت‌های هدیه نمی‌شود. نمی‌تواند با هیچ پیشنهاد، فروش، تخفیف یا تبلیغات دیگری استفاده شود. پس از دوره خرید اولیه.
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5 class="text-center text-uppercase m-t-20 text-muted">
+                                    برای دریافت کد تخفیف خود کلیک کنید
+                                </h5>
+                            </div>
+
+                            <div class="col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+                                <a href="#" target="_blank" class="coupon_code alert alert-info">
+                            <span class="coupon_icon">
+                                <i class="ti-cut hidden-xs"></i>
+                            </span> DAZ50-8715
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="report">
+                                    آیا این کد تخفیف کار کرد؟
+                                    <span class="yes vote-link" data-src="#">
+                                بله
+                            </span> <span class="no vote-link" data-src="#">خیر</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- پایان: محتوای مودال کوپن -->
+            </div>
+
+
+            <div class="newsletter-modal">
+                <div class="newsletter-form">
+                    <h4>
+                        <i class="ti-email"></i> برای خبرنامه هفتگی ایمیل با بهترین کوپن‌های صرفه‌جویی در هزینه ثبت نام کنید.
+                    </h4>
+                    <div class="input-group">
+                        <input class="form-control input-lg" placeholder="ایمیل" type="text">
+                        <span class="input-group-btn">
+                    <button class="btn btn-danger btn-lg" type="button">
+                        ثبت نام
+                    </button>
+                </span>
+                    </div>
+                    <p>
+                        <small>ما هرگز آدرس ایمیل شما را با شخص ثالث به اشتراک نمی‌گذاریم.</small>
+                    </p>
+                </div>
+            </div>
+            <ul class="nav nav-pills nav-justified">
+                <li role="presentation" class="active">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="کار کرد">
+                        <i class="ti-check color-green"></i>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="عاشقشم">
+                        <i class="ti-heart color-primary"></i>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="کار نکرد">
+                        <i class="ti-close"></i>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+
+
+</div>
+</div>
+
+<script src="~/assets/js/jquery.min.js"></script>
+<script src="~/assets/js/bootstrap.min.js"></script>
+<script src="~/assets/js/animsition.min.js"></script>
+<!-- Kupon js -->
+<script src="~/assets/js/kupon.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: true,
+        },
+    });
+</script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
