@@ -17,8 +17,7 @@ public class CategoryController:BaseControllerArea
     public async Task<IActionResult> Index(int? pageNumber)
     {
         var pageSize = 10; // تعداد آیتم‌های هر صفحه
-        var products = await _categoriesService.GetAll()
-            ;        
+        var products = await _categoriesService.GetAll();        
         var paginatedProducts = await PaginatedList<CategoryDto>.CreateAsync(products, pageNumber ?? 1, pageSize);
         return View(paginatedProducts);
     }

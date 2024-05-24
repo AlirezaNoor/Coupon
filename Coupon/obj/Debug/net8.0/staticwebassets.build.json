@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K0d53qmgJV3SsAfx+G063Cqtn+nmO15bTDtIZu1W8dU=",
+  "Hash": "yQAzD5erENzsdUBIxMUXgXc/aAEi6YMhdCM/FDHIMRA=",
   "Source": "Coupon",
   "BasePath": "_content/Coupon",
   "Mode": "Default",
@@ -15557,6 +15557,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\plugins\\slimScroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Identity": "F:\\project\\Coupon\\Coupon\\wwwroot\\uploads\\8b5d7749-1056-4d57-a987-e6b48469be56.png",
+      "SourceId": "Coupon",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\project\\Coupon\\Coupon\\wwwroot\\",
+      "BasePath": "_content/Coupon",
+      "RelativePath": "uploads/8b5d7749-1056-4d57-a987-e6b48469be56.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\8b5d7749-1056-4d57-a987-e6b48469be56.png"
     }
   ]
 }

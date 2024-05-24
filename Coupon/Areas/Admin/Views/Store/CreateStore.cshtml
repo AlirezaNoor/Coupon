@@ -1,0 +1,46 @@
+@model Coupon.ApplicationContract.Dto.Store.CreateStore
+<form  asp-area="Admin" asp-controller="Store" asp-action="CreateStore" method="post"  enctype="multipart/form-data">
+    <div class="card card-warning">
+        <div class="card-header">
+            <h3 class="card-title">افزودن دسته بندی</h3>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            <form role="form">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>نوشته</label>
+                    <input type="text" asp-for="StoreName" class="form-control" placeholder="وارد کردن اطلاعات ...">
+                    <span asp-validation-for="StoreName" class="text-danger"></span>
+
+                </div>
+
+
+                <!-- textarea -->
+                <div class="form-group">
+                    <label>متن</label>
+                    <textarea class="form-control" asp-for="Description" rows="3" placeholder="وارد کردن اطلاعات ..."></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">ارسال فایل</label>
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" asp-for="Imagefile" class="custom-file-input" id="exampleInputFile">
+                            <label class="custom-file-label" for="exampleInputFile">انتخاب فایل</label>
+                        </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="">Upload</span>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-success">ثبت</button>
+        </div>
+        <!-- /.card-body -->
+    </div>
+</form>

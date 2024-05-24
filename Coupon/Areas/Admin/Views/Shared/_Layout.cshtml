@@ -207,7 +207,30 @@
 
                             </ul>
                         </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa fa-th-list"></i>
+                                <p>
+                                    مدیریت برند ها
+                                    <i class="right fa fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview" style="display: none;">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Store" asp-action="CreateStore">
+                                        <i class="fa fa-tags nav-icon"></i>
+                                        <p>ایجاد برند</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Store" asp-action="Index">
+                                        <i class="fa fa-th-list nav-icon"></i>
+                                        <p>لیست برندها</p>
+                                    </a>
+                                </li>
 
+                            </ul>
+                        </li>
 
                     </ul>
                 </nav>
