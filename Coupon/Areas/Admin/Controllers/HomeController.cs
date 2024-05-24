@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace Coupon.Areas.Admin.Controllers;
-[Area("Admin")]
-public class HomeController:Controller
+ 
+public class HomeController:BaseControllerArea
 {
     public IActionResult Index()
     {

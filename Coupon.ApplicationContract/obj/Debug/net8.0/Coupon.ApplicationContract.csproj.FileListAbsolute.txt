@@ -1,0 +1,16 @@
+F:\project\Coupon\Coupon.ApplicationContract\bin\Debug\net8.0\Coupon.ApplicationContract.deps.json
+F:\project\Coupon\Coupon.ApplicationContract\bin\Debug\net8.0\Coupon.ApplicationContract.dll
+F:\project\Coupon\Coupon.ApplicationContract\bin\Debug\net8.0\Coupon.ApplicationContract.pdb
+F:\project\Coupon\Coupon.ApplicationContract\bin\Debug\net8.0\Coupon.Domain.dll
+F:\project\Coupon\Coupon.ApplicationContract\bin\Debug\net8.0\Coupon.Domain.pdb
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.csproj.AssemblyReference.cache
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.GeneratedMSBuildEditorConfig.editorconfig
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.AssemblyInfoInputs.cache
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.AssemblyInfo.cs
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.csproj.CoreCompileInputs.cache
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.sourcelink.json
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.csproj.CopyComplete
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.dll
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\refint\Coupon.ApplicationContract.dll
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\Coupon.ApplicationContract.pdb
+F:\project\Coupon\Coupon.ApplicationContract\obj\Debug\net8.0\ref\Coupon.ApplicationContract.dll

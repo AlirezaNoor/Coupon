@@ -27,10 +27,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Areas\Admin\Models\" />
-    </ItemGroup>
-
-    <ItemGroup>
 
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
 
@@ -56,6 +52,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Coupon.ApplicationContract\Coupon.ApplicationContract.csproj" />
+      <ProjectReference Include="..\Coupon.Application\Coupon.Application.csproj" />
       <ProjectReference Include="..\Coupon.Infrastructure\Coupon.Infrastructure.csproj" />
     </ItemGroup>
 

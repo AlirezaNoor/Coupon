@@ -254,3 +254,9 @@ F:\project\Coupon\Coupon\obj\Debug\net8.0\refint\Coupon.dll
 F:\project\Coupon\Coupon\obj\Debug\net8.0\Coupon.pdb
 F:\project\Coupon\Coupon\obj\Debug\net8.0\Coupon.genruntimeconfig.cache
 F:\project\Coupon\Coupon\obj\Debug\net8.0\ref\Coupon.dll
+F:\project\Coupon\Coupon\bin\Debug\net8.0\AutoMapper.dll
+F:\project\Coupon\Coupon\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\project\Coupon\Coupon\bin\Debug\net8.0\Coupon.Application.dll
+F:\project\Coupon\Coupon\bin\Debug\net8.0\Coupon.ApplicationContract.dll
+F:\project\Coupon\Coupon\bin\Debug\net8.0\Coupon.ApplicationContract.pdb
+F:\project\Coupon\Coupon\bin\Debug\net8.0\Coupon.Application.pdb

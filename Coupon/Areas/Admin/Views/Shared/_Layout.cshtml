@@ -1,5 +1,4 @@
-﻿ 
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -15,7 +14,7 @@
     <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="~/plugins/iCheck/flat/blue.css">
- 
+
     <link rel="stylesheet" href="~/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
     <!-- Date Picker -->
     <link rel="stylesheet" href="~/plugins/datepicker/datepicker3.css">
@@ -24,7 +23,7 @@
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="~/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
     <!-- Google Font: Source Sans Pro -->
-     <!-- bootstrap rtl -->
+    <!-- bootstrap rtl -->
     <link rel="stylesheet" href="~/dist/css/bootstrap-rtl.min.css">
     <!-- template rtl version -->
     <link rel="stylesheet" href="~/dist/css/custom-style.css">
@@ -40,9 +39,9 @@
 
             @if (User?.Identity?.IsAuthenticated ?? false)
             {
-            <form asp-controller="Account" asp-action="Logout" method="post">
-                <button type="submit" placeholder="خروج" class="btn btn-danger" >خروج</button>
-            </form>
+                <form asp-controller="Account" asp-action="Logout" method="post">
+                    <button type="submit" placeholder="خروج" class="btn btn-danger">خروج</button>
+                </form>
             }
         </ul>
 
@@ -74,7 +73,9 @@
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     حسام موسوی
-                                    <span class="float-left text-sm text-danger"><i class="fa fa-star"></i></span>
+                                    <span class="float-left text-sm text-danger">
+                                        <i class="fa fa-star"></i>
+                                    </span>
                                 </h3>
                                 <p class="text-sm">با من تماس بگیر لطفا...</p>
                                 <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 ساعت قبل</p>
@@ -90,7 +91,9 @@
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     پیمان احمدی
-                                    <span class="float-left text-sm text-muted"><i class="fa fa-star"></i></span>
+                                    <span class="float-left text-sm text-muted">
+                                        <i class="fa fa-star"></i>
+                                    </span>
                                 </h3>
                                 <p class="text-sm">من پیامتو دریافت کردم</p>
                                 <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 ساعت قبل</p>
@@ -106,7 +109,9 @@
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     سارا وکیلی
-                                    <span class="float-left text-sm text-warning"><i class="fa fa-star"></i></span>
+                                    <span class="float-left text-sm text-warning">
+                                        <i class="fa fa-star"></i>
+                                    </span>
                                 </h3>
                                 <p class="text-sm">پروژه اتون عالی بود مرسی واقعا</p>
                                 <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i>4 ساعت قبل</p>
@@ -178,82 +183,31 @@
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-                             with font-awesome or any other icon font library -->
-
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="AdminHome" asp-action="Index">
-                                <i class="nav-icon fa fa-th"></i>
-                                <p>
-                                    لیست مشخصات  فردی
-                                </p>
-                            </a>
-                        </li>
                         <li class="nav-item has-treeview">
-                            <a class="nav-link" asp-action="personalinformation">
-                                <i class="nav-icon fa fa-edit"></i>
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa fa-th-list"></i>
                                 <p>
-                                    ایجاد مشخصات فردی
-
+                                    مدیریت دسته بندی ها
+                                    <i class="right fa fa-angle-left"></i>
                                 </p>
                             </a>
+                            <ul class="nav nav-treeview" style="display: none;">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="CreateCategroy">
+                                        <i class="fa fa-tags nav-icon"></i>
+                                        <p>ایجاد دسته بندی</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">
+                                        <i class="fa fa-th-list nav-icon"></i>
+                                        <p>لیست دسته بندی</p>
+                                    </a>
+                                </li>
 
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a class="nav-link" asp-controller="AdminHome" asp-action="updaodmycvs">
-                                <i class="nav-icon fa fa-table"></i>
-                                <p>
-                                    اپلود رزمه
-                                </p>
-                            </a>
-                        <li class="nav-item has-treeview">
-                            <a class="nav-link" asp-controller="AdminHome" asp-action="aboutme">
-                                <i class="nav-icon fa fa-street-view"></i>
-                                <p>
-                                    درباره من
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a class="nav-link" asp-controller="AdminHome" asp-action="AddData">
-                                <i class="nav-icon fa fa-bullhorn"></i>
-                                <p>
-                                    حوزه فعالیتم
-
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a class="nav-link" asp-controller="AdminHome" asp-action="skillaction">
-                                <i class="nav-icon fa fa-area-chart"></i>
-                                <p>
-                                    توانایی
-                                </p>
-                            </a>
+                            </ul>
                         </li>
 
-                        </li>
-
-                        <li class="nav-header">مدیریت بلاگ</li>
-                        <li class="nav-item">
-                        <li class="nav-item">
-                            <a asp-action="CreateBlog" class="nav-link">
-                                <i class="nav-icon fa fa-commenting"></i>
-                                <p>
-                                    ایجاد پست جدید
-                                    <span class="badge badge-info right">2</span>
-                                </p>
-                            </a>
-                        </li>
-
-                        <a class="nav-link" asp-action="BlogpostList">
-                            <i class="nav-icon fa fa-calendar"></i>
-                            <p>
-                                لیست مطالب
-                                <span class="badge badge-info right">2</span>
-                            </p>
-                        </a>
-                        </li>
 
                     </ul>
                 </nav>
@@ -311,7 +265,7 @@
 <!-- Slimscroll -->
 <script src="~/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
- 
+
 <script src="~/dist/js/adminlte.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="~/dist/js/pages/dashboard.js"></script>
