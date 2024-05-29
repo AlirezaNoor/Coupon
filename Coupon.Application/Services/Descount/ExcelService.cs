@@ -9,6 +9,8 @@ public class ExcelService:IExcelService
 {
     public async Task<List<CreateDescount>> ReadExcelData(IFormFile file)
     {
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
         var dtoList = new List<CreateDescount>();
 
         using (var stream = new MemoryStream())
