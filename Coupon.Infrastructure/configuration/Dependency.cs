@@ -1,6 +1,10 @@
 using Coupon.Domain.Repositories.Categories;
+using Coupon.Domain.Repositories.Descount;
+using Coupon.Domain.Repositories.Store;
 using Coupon.Infrastructure.Context;
 using Coupon.Infrastructure.Repositories.Category;
+using Coupon.Infrastructure.Repositories.Descount;
+using Coupon.Infrastructure.Repositories.Store;
 using Coupon.Infrastructure.Repositories.Unitofworks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -19,5 +23,8 @@ public static class Dependency
 
         serviceCollection.AddScoped<ICategoryRepository, CategoryRepository>();
         serviceCollection.AddScoped<Iunitofwork, unitofwork>();
+        serviceCollection.AddScoped<IStoreRepository, StoreRepository>();
+        serviceCollection.AddScoped<IDesCountRepository, DesCountRepository>();
+        serviceCollection.AddScoped< IAddCategoryToDescountRepository, AddCategoryToDescountRepository>();
     }
 }

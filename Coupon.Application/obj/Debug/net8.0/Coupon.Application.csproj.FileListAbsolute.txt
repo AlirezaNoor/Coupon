@@ -1,3 +1,43 @@
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Application.deps.json
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Application.dll
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Application.pdb
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.ApplicationContract.dll
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Domain.dll
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Infrastructure.dll
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.ApplicationContract.pdb
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Infrastructure.pdb
+F:/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Domain.pdb
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.csproj.AssemblyReference.cache
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.AssemblyInfoInputs.cache
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.AssemblyInfo.cs
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.csproj.CoreCompileInputs.cache
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.sourcelink.json
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.csproj.CopyComplete
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.dll
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/refint/Coupon.Application.dll
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.pdb
+F:/project/Coupon/Coupon.Application/obj/Debug/net8.0/ref/Coupon.Application.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Application.deps.json
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Application.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Application.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.ApplicationContract.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Domain.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Infrastructure.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.ApplicationContract.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Infrastructure.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/bin/Debug/net8.0/Coupon.Domain.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.csproj.AssemblyReference.cache
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.AssemblyInfoInputs.cache
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.AssemblyInfo.cs
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.csproj.CoreCompileInputs.cache
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.sourcelink.json
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.csproj.CopyComplete
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/refint/Coupon.Application.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/Coupon.Application.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Application/obj/Debug/net8.0/ref/Coupon.Application.dll
 F:\project\Coupon\Coupon.Application\bin\Debug\net8.0\Coupon.Application.deps.json
 F:\project\Coupon\Coupon.Application\bin\Debug\net8.0\Coupon.Application.dll
 F:\project\Coupon\Coupon.Application\bin\Debug\net8.0\Coupon.Application.pdb

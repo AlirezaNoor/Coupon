@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "Upload Excel File";
+}
+
+<h2>Upload Excel File</h2>
+
+<form id="uploadForm" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="excelFile">Select Excel File:</label>
+        <input type="file" name="file" id="excelFile" class="form-control-file" />
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+<div class="progress mt-3">
+    <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<div id="uploadStatus" class="mt-3"></div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#uploadForm").on("submit", function (event) {
+                event.preventDefault();
+
+                var formData = new FormData(this);
+
+                $.ajax({
+                    xhr: function () {
+                        var xhr = new window.XMLHttpRequest();
+                        xhr.upload.addEventListener("progress", function (evt) {
+                            if (evt.lengthComputable) {
+                                var percentComplete = evt.loaded / evt.total * 100;
+                                $("#progressBar").css("width", percentComplete + "%");
+                                $("#progressBar").attr("aria-valuenow", percentComplete);
+                            }
+                        }, false);
+                        return xhr;
+                    },
+                    type: "POST",
+                    url: "/Excel/UploadExcelFile",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        $("#uploadStatus").html("<div class='alert alert-success'>File uploaded successfully!</div>");
+                        $("#progressBar").css("width", "0%");
+                    },
+                    error: function (xhr, status, error) {
+                        $("#uploadStatus").html("<div class='alert alert-danger'>An error occurred while uploading the file.</div>");
+                        $("#progressBar").css("width", "0%");
+                    }
+                });
+            });
+        });
+    </script>
+}

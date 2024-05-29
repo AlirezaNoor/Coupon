@@ -9,4 +9,5 @@ public interface ICategoriesService
     Task Delete(long Id);
     Task<CategoryDto> GetbyId(long Id);
     Task<IQueryable<CategoryDto>> GetAll();
+  
 }

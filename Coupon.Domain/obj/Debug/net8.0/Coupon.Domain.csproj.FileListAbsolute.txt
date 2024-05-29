@@ -1,3 +1,27 @@
+F:/project/Coupon/Coupon.Domain/bin/Debug/net8.0/Coupon.Domain.deps.json
+F:/project/Coupon/Coupon.Domain/bin/Debug/net8.0/Coupon.Domain.dll
+F:/project/Coupon/Coupon.Domain/bin/Debug/net8.0/Coupon.Domain.pdb
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.AssemblyInfoInputs.cache
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.AssemblyInfo.cs
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.csproj.CoreCompileInputs.cache
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.sourcelink.json
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.dll
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/refint/Coupon.Domain.dll
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.pdb
+F:/project/Coupon/Coupon.Domain/obj/Debug/net8.0/ref/Coupon.Domain.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/bin/Debug/net8.0/Coupon.Domain.deps.json
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/bin/Debug/net8.0/Coupon.Domain.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/bin/Debug/net8.0/Coupon.Domain.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.AssemblyInfoInputs.cache
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.AssemblyInfo.cs
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.csproj.CoreCompileInputs.cache
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.sourcelink.json
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/refint/Coupon.Domain.dll
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/Coupon.Domain.pdb
+/run/media/alireza/New Volume/project/Coupon/Coupon.Domain/obj/Debug/net8.0/ref/Coupon.Domain.dll
 F:\project\Coupon\Coupon.Domain\bin\Debug\net8.0\Coupon.Domain.deps.json
 F:\project\Coupon\Coupon.Domain\bin\Debug\net8.0\Coupon.Domain.dll
 F:\project\Coupon\Coupon.Domain\bin\Debug\net8.0\Coupon.Domain.pdb

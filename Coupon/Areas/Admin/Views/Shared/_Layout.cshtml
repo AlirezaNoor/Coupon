@@ -37,12 +37,12 @@
         <!-- Left navbar links -->
         <ul class="navbar-nav">
 
-            @if (User?.Identity?.IsAuthenticated ?? false)
-            {
-                <form asp-controller="Account" asp-action="Logout" method="post">
-                    <button type="submit" placeholder="خروج" class="btn btn-danger">خروج</button>
-                </form>
-            }
+            @* @if (User?.Identity?.IsAuthenticated ?? false) *@
+            @* { *@
+            @*     <form asp-controller="Account" asp-action="Logout" method="post"> *@
+            @*         <button type="submit" placeholder="خروج" class="btn btn-danger">خروج</button> *@
+            @*     </form> *@
+            @* } *@
         </ul>
 
         <!-- SEARCH FORM -->
@@ -231,6 +231,36 @@
 
                             </ul>
                         </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa fa-th-list"></i>
+                                <p>
+                                    مدیریت کد ها
+                                    <i class="right fa fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview" style="display: none;">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Discount" asp-action="Create">
+                                        <i class="fa fa-tags nav-icon"></i>
+                                        <p>ایجاد کد تخفیف</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Discount" asp-action="UploadExcelFile">
+                                        <i class="fa fa-tags nav-icon"></i>
+                                        <p>-' کروهی ایجاد کد تخفیف</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Store" asp-action="Index">
+                                        <i class="fa fa-th-list nav-icon"></i>
+                                        <p>لیست برندها</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
 
                     </ul>
                 </nav>
@@ -294,5 +324,6 @@
 <script src="~/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="~/dist/js/demo.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -22,30 +22,39 @@ public class CategoriesService:ICategoriesService
 
     public async Task CreateCategory(CreateCategoryDto categoryDto)
     {
+        await _unitofwork.BeginTransactionAsync();
        await _categoryRepository.AddAsync(_mapper.Map<Category>(categoryDto));
-        await _unitofwork.SaveChanges();
+        await _unitofwork.SaveChangesAsync();
+        await _unitofwork.CommitAsync();
     }
 
     public async Task UpdateCategory(UpdateCategoryDto categoryDto)
     {
+        await _unitofwork.BeginTransactionAsync();
         _categoryRepository.Update(_mapper.Map<Category>(categoryDto));
-        _unitofwork.SaveChanges();
+        await _unitofwork.SaveChangesAsync();
+        await _unitofwork.CommitAsync();
     }
 
     public async Task Delete(long Id)
     {
+        await _unitofwork.BeginTransactionAsync();
         var catgeory =await GetbyId(Id);
         _categoryRepository.Delete(_mapper.Map<Category>(catgeory));
-        _unitofwork.SaveChanges();
+        await _unitofwork.SaveChangesAsync();
+        await _unitofwork.CommitAsync();
     }
 
     public async Task<CategoryDto> GetbyId(long Id)
     {
+  
         return _mapper.Map<CategoryDto>(_categoryRepository.GetByIdAsync(Id));
+  
     }
 
     public async Task<IQueryable<CategoryDto>> GetAll()
     {
+        
         var all = await _categoryRepository.GetAllQuery();
 
         return all.Select(x => new CategoryDto()
@@ -55,4 +64,6 @@ public class CategoriesService:ICategoriesService
             CategoryName = x.CategoryName
         }).AsQueryable();
     }
+
+ 
 }

@@ -2,5 +2,8 @@ namespace Coupon.Infrastructure.Repositories.Unitofworks;
 
 public interface Iunitofwork
 {
-    Task SaveChanges();
+    Task SaveChangesAsync();
+    Task RollbackAsync();
+    Task  CommitAsync();
+    Task BeginTransactionAsync();
 }
