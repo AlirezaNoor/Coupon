@@ -2,6 +2,7 @@ using Coupon.ApplicationContract.Dto.DisCount;
 using Coupon.ApplicationContract.interfaces.Category;
 using Coupon.ApplicationContract.interfaces.Descount;
 using Coupon.ApplicationContract.interfaces.Store;
+using Coupon.Areas.Admin.Models.Paginated;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -22,10 +23,14 @@ public class DiscountController:BaseControllerArea
         _excelService = excelService;
     }
 
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index(int? pageNumber)
     {
+        var pageSize = 10; // تعداد آیتم‌های هر صفحه
+
         var discounts = await _desCountService.GetAllDiscountsAsync();
-        return View(discounts);
+        var paginatedProducts = await PaginatedList<DescountDTO>.CreateAsync(discounts, pageNumber ?? 1, pageSize);
+
+        return View(paginatedProducts);
     }
 
    
@@ -116,5 +121,18 @@ public class DiscountController:BaseControllerArea
         }
          
         return RedirectToAction("Index", "Home");
+    }
+    public IActionResult DownloadSampleExcel()
+    {
+        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/excel", "sample.xlsx");
+
+        if (!System.IO.File.Exists(filePath))
+        {
+            return NotFound(); // اگر فایل وجود ندارد، خطای 404 برگردانید
+        }
+
+        var fileBytes = System.IO.File.ReadAllBytes(filePath);
+        var fileName = "sample.xlsx";
+        return File(fileBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
     }
 }

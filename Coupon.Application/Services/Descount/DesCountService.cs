@@ -66,10 +66,13 @@ public class DesCountService : IDesCountService
     }
 
 
-    public async Task<IEnumerable<DescountDTO>> GetAllDiscountsAsync()
+    public async Task<IQueryable<DescountDTO>> GetAllDiscountsAsync()
     {
-        return await _context.Discounts.Include(d => d.store).Select(x => new DescountDTO()
+       return  _context.Discounts.Include(d => d.store).Select(x => new DescountDTO()
             {
+                CodeName = x.CodeName,
+                Description = x.Description,
+                Code = x.Code,
                 ID = x.ID,
                 IsActive = x.IsActive,
                 StorId = x.StorId,
@@ -77,7 +80,7 @@ public class DesCountService : IDesCountService
                 End = x.End,
                 IsHot = x.IsHot,
             })
-            .ToListAsync();
+            .AsQueryable();
     }
 
     public async Task<DescountDTO> GetDiscountByIdAsync(long id)

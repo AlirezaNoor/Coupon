@@ -2,60 +2,76 @@
 @model Coupon.ApplicationContract.Dto.DisCount.CreateDescount
 
 @{
-ViewData["Title"] = "Create Discount";
+    ViewData["Title"] = "Create Discount";
 }
 
-<h2>Create Discount</h2>
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="CodeName" class="control-label"></label>
-        <input asp-for="CodeName" class="form-control" />
-        <span asp-validation-for="CodeName" class="text-danger"></span>
+<form asp-action="Create" method="post" class="ml-2">
+    <div class="card">
+        <div class="card-header">
+            <h3>ایجاد کد تخفیف</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label class="control-label"> نام برند تخفیف:</label>
+                <input asp-for="CodeName" class="form-control"/>
+                <span asp-validation-for="CodeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">توضیحات</label>
+                <input asp-for="Description" class="form-control"/>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">کد</label>
+                <input asp-for="Code" class="form-control"/>
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">تاریخ</label>
+                <input asp-for="start" class="form-control" type="datetime-local"/>
+                <span asp-validation-for="start" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">تاریخ پایان</label>
+                <input asp-for="End" class="form-control" type="datetime-local"/>
+                <span asp-validation-for="End" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label class="control-label">جز محصولا داغ باشد؟</label>
+
+               
+                    <input asp-for="IsHot" class="form-check-input mr-4" type="checkbox"/>
+                 
+                <span asp-validation-for="IsHot" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+         
+                    <label class="control-label">فعال باشد</label>
+               
+        
+                <input asp-for="IsActive" class="form-check-input mr-2" type="checkbox"/>
+            
+                <span asp-validation-for="IsActive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div>
+                    <label class="control-label">برند تجاری</label>
+                </div>
+                <select asp-for="StorId" asp-items="ViewBag.Stores" class="form-control"></select>
+                <span asp-validation-for="StorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">دسته بندی ها</label>
+                <select asp-for="CreateAddCategorytoDescountDtos" asp-items="ViewBag.Categories" class="form-control" multiple></select>
+                <span asp-validation-for="CreateAddCategorytoDescountDtos" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Description" class="control-label"></label>
-        <input asp-for="Description" class="form-control" />
-        <span asp-validation-for="Description" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Code" class="control-label"></label>
-        <input asp-for="Code" class="form-control" />
-        <span asp-validation-for="Code" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="start" class="control-label"></label>
-        <input asp-for="start" class="form-control" type="datetime-local" />
-        <span asp-validation-for="start" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="End" class="control-label"></label>
-        <input asp-for="End" class="form-control" type="datetime-local" />
-        <span asp-validation-for="End" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="IsHot" class="control-label"></label>
-        <input asp-for="IsHot" class="form-check-input" type="checkbox" />
-        <span asp-validation-for="IsHot" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="IsActive" class="control-label"></label>
-        <input asp-for="IsActive" class="form-check-input" type="checkbox" />
-        <span asp-validation-for="IsActive" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="StorId" class="control-label"></label>
-        <select asp-for="StorId" asp-items="ViewBag.Stores" class="form-control"></select>
-        <span asp-validation-for="StorId" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="CreateAddCategorytoDescountDtos" class="control-label">Categories</label>
-        <select asp-for="CreateAddCategorytoDescountDtos" asp-items="ViewBag.Categories" class="form-control" multiple></select>
-        <span asp-validation-for="CreateAddCategorytoDescountDtos" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Create" class="btn btn-primary" />
-    </div>
+
 </form>
-
- 

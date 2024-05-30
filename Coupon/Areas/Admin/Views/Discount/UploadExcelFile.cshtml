@@ -2,18 +2,67 @@
     ViewData["Title"] = "Upload Excel File";
 }
 
-<h2>Upload Excel File</h2>
+
 
 <form id="uploadForm" enctype="multipart/form-data" asp-action="UploadExcelFile" method="post">
-    <div class="form-group">
-        <label for="excelFile">Select Excel File:</label>
-        <input type="file" name="file" id="excelFile" class="form-control-file" />
+    
+    <div class="card">
+        <div class="card-header"><h3>آپلود فایل</h3>
+            <a href="/Admin/Discount/DownloadSampleExcel" class="btn btn-success mt-2">دانلود اکسل نمونه</a>
+
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="exampleInputFile">فایل را انتخاب کنید</label>
+                <div class="custom-file">
+                    <input type="file" name="file" id="exampleInputFile" class="custom-file-input " />
+                    <label class="custom-file-label" for="exampleInputFile">انتخاب فایل</label>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer"> <button type="submit" class="btn btn-primary">آپلود</button></div>
     </div>
-    <button type="submit" class="btn btn-primary">Upload</button>
+    
+   
 </form>
 
-<div class="progress mt-3">
-    <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+<div id="loading" class="loading" style="display:none;">
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">در حال بارگذاری...</span>
+    </div>
+    <p>لطفا صبر کنید...</p>
 </div>
 
-<div id="uploadStatus" class="mt-3"></div>
+
+
+@section Scripts {
+<script>
+    document.querySelector('.custom-file-input').addEventListener('change', function (e) {
+        var fileName = document.getElementById("exampleInputFile").files[0].name;
+        var nextSibling = e.target.nextElementSibling;
+        nextSibling.innerText = fileName;
+    });
+
+    document.getElementById('uploadForm').addEventListener('submit', function() {
+        document.getElementById('loading').style.display = 'block';
+    });
+</script>
+}
+
+<style>
+    .loading {
+        position: fixed;
+        z-index: 1000;
+        height: 100%;
+        width: 100%;
+        overflow: visible;
+        margin: auto;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>

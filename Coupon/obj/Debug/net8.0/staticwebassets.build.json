@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yQAzD5erENzsdUBIxMUXgXc/aAEi6YMhdCM/FDHIMRA=",
+  "Hash": "16tubsZW+Scm3MV8j8U8TiKTfR+CmLrzlQFX2lHZRYM=",
   "Source": "Coupon",
   "BasePath": "_content/Coupon",
   "Mode": "Default",
@@ -1060,6 +1060,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\makemytrip-logo-small.jpg"
+    },
+    {
+      "Identity": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\New Microsoft Word Document (2).docx",
+      "SourceId": "Coupon",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\project\\Coupon\\Coupon\\wwwroot\\",
+      "BasePath": "_content/Coupon",
+      "RelativePath": "assets/images/New Microsoft Word Document (2).docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\New Microsoft Word Document (2).docx"
     },
     {
       "Identity": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\Payless-Shoesource-End-Of-Season-Sale-December-February-2015.jpg",
@@ -6361,6 +6380,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\plugins\\popper\\umd\\popper.min.js.map"
+    },
+    {
+      "Identity": "F:\\project\\Coupon\\Coupon\\wwwroot\\excel\\sample.xlsx",
+      "SourceId": "Coupon",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\project\\Coupon\\Coupon\\wwwroot\\",
+      "BasePath": "_content/Coupon",
+      "RelativePath": "excel/sample.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\excel\\sample.xlsx"
     },
     {
       "Identity": "F:\\project\\Coupon\\Coupon\\wwwroot\\favicon.ico",

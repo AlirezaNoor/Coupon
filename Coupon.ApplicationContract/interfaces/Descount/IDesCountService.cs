@@ -7,7 +7,7 @@ namespace Coupon.ApplicationContract.interfaces.Descount;
 public interface IDesCountService
 {
     Task CreateDiscountAsync(CreateDescount dto);
-    Task<IEnumerable<DescountDTO>> GetAllDiscountsAsync();
+    Task<IQueryable<DescountDTO>> GetAllDiscountsAsync();
     Task<DescountDTO> GetDiscountByIdAsync(long id);
     Task UpdateDiscountAsync(long id, CreateDescount dto);
     Task DeleteDiscountAsync(long id);

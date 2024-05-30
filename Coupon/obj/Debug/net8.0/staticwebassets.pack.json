@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\Blog_Banner.jpg"
     },
     {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\New Microsoft Word Document (2).docx",
+      "PackagePath": "staticwebassets\\assets\\images\\New Microsoft Word Document (2).docx"
+    },
+    {
       "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\assets\\images\\Payless-Shoesource-End-Of-Season-Sale-December-February-2015.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\Payless-Shoesource-End-Of-Season-Sale-December-February-2015.jpg"
     },
@@ -1331,6 +1335,10 @@
     {
       "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\dist\\js\\plugins\\popper\\umd\\popper.min.js.map",
       "PackagePath": "staticwebassets\\dist\\js\\plugins\\popper\\umd\\popper.min.js.map"
+    },
+    {
+      "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\excel\\sample.xlsx",
+      "PackagePath": "staticwebassets\\excel\\sample.xlsx"
     },
     {
       "Id": "F:\\project\\Coupon\\Coupon\\wwwroot\\favicon.ico",
