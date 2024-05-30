@@ -1,6 +1,9 @@
 using Coupon.Application.Configuration;
 using Coupon.ApplicationContract.Configuration;
+using Coupon.Domain.Entities.identity;
 using Coupon.Infrastructure.configuration;
+using Coupon.Infrastructure.Context;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +12,25 @@ builder.Services.AddControllersWithViews();
 builder.Services.DependencyMethod(builder.Configuration);
 builder.Services.AppContractConfig();
 builder.Services.ApplicationCofigmethod();
-
-
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
+    {
+        options.Password.RequireDigit = true;
+        options.Password.RequiredLength = 6;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = true;
+        options.Password.RequireLowercase = false;
+        options.SignIn.RequireConfirmedAccount = true;
+    })
+    .AddEntityFrameworkStores<DbCoupon>()
+    .AddDefaultTokenProviders();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login"; // مسیر لاگین
+    options.LogoutPath = "/Account/Logout"; // مسیر لاگ‌اوت
+    options.AccessDeniedPath = "/Account/AccessDenied"; // مسیر دسترسی ممنوع
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+    options.SlidingExpiration = true;
+});
 
 var app = builder.Build();
 
@@ -26,7 +46,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
  
 app.UseEndpoints(endpoints =>

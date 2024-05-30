@@ -34,3 +34,4 @@ F:\project\Coupon\Coupon.Domain\obj\Debug\net8.0\Coupon.Domain.dll
 F:\project\Coupon\Coupon.Domain\obj\Debug\net8.0\refint\Coupon.Domain.dll
 F:\project\Coupon\Coupon.Domain\obj\Debug\net8.0\Coupon.Domain.pdb
 F:\project\Coupon\Coupon.Domain\obj\Debug\net8.0\ref\Coupon.Domain.dll
+F:\project\Coupon\Coupon.Domain\obj\Debug\net8.0\Coupon.Domain.csproj.AssemblyReference.cache

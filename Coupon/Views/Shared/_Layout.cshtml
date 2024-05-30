@@ -87,22 +87,29 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="dropdown user-box">
-                            <a href="" class="dropdown-toggle profile btn btn-default" data-toggle="dropdown" aria-expanded="true">
-                                اکانت من
+                     @if (User.Identity.IsAuthenticated)
+                        {
+                            <a asp-controller="Account" asp-action="Logout"  class="dropdown-toggle profile btn btn-default"  >
+                               @User.Identity.Name خروج 
                             </a>
-                            <ul class="dropdown-menu" style="margin-top:16px">
-                                <li>
-                                    <a href="javascript:void(0)"> ورود</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">ثبت نام</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">مرکز کمک </a>
-                                </li>
-                            </ul>
-                        </li>
+                        }
+                     else
+                     {
+                         <li class="dropdown user-box">
+                             <a href="" class="dropdown-toggle profile btn btn-default" data-toggle="dropdown" aria-expanded="true">
+                                 اکانت من
+                             </a>
+                             <ul class="dropdown-menu" style="margin-top:16px">
+                                 <li>
+                                     <a asp-controller="Account" asp-action="Login" > ورود</a>
+                                 </li>
+                                 <li>
+                                     <a  asp-controller="Account" asp-action="Register">ثبت نام</a>
+                                 </li>
+                           
+                             </ul>
+                         </li>
+                     }
                     </ul>
                     <div class="menu-item">
                         <!-- Mobile menu toggle-->
